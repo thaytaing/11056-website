@@ -32,5 +32,22 @@
 			we will respond to it as soon as we possibly can.
 		</div><br>
 		
+		<div id="ctForm">
+			<form name="ctFrm" action="welcome.html" method="post" onsubmit="return validateForm()"><br>
+				<label>Enter your Email Address:  </label><span id="emailerror"></span>
+				<input name="email" size="30"/><br><br>
+				<label>Subject of Your Enquiry:  </label><span id="subjecterror"></span>
+				<select name="subject">
+					<option value="ge">General Enquiry</option>
+					<option value="gpcpbk">Group and Corporate Bookings</option>
+					<option value="sc">Suggestions & Complaints</option>
+				</select><br><br>
+				<div id = "ctEnq">
+					<label>Enter your enquiry below:</label><span id="messageerror"></span><br><br>
+					<textarea id="message" name="message" rows="8"></textarea><br><br>
+					<input class="bttnSubmit" type="submit" value="Submit Enquiry" />
+				</div>
+			</form>
+		</div>
 	</body>
 </html>
