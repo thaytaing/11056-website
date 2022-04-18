@@ -1,6 +1,3 @@
-# 11056-website
- Code for front-end-web-project-1
-
 Reflection 
 
 This project develops a front-end website for Canberra Art Biennial Festivals to attract the public attentions. The designed website consists of HTML, CSS and JavaScript to support interactive communication with target audiences. This website considers three core sections that include navigation bar, body and footer. 
