@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script src="js/bookingvalidation.js"></script>
+			<title>Canberra Art Biennial Festivals</title>
+		</head>
+		<body>
+			<header>
+				<h1>
+					<div class="header_logo">
+						<img class ="svLogo" src="assets/image/logo.png" alt="logo"/>
+					</div>
+				</h1>
+			</header>
+			<div id = "naviBar">
+				<ul>
+					<li><a class="nLk" href="index.html">HOME</a></li>
+					<li><a class="nLk" href="contact.html">Contact Us</a></li>
+					<li><a class="nLk" href="festival.html">FESTIVALS</a></li>
+					<li><a class="nLk" href="booking.html">BOOKING</a></li>
+				</ul>
+			</div>
+			
+			<div id="homeTxtTitle" style="text-align: center;">Booking Your Festival</div><br>
+			<div id="homeText" style="text-align: center;">
+				Please Leave your personal information to confirm the festival booking<br>
+				See you soon<br> 
+			</div><br>
+			<div id="ctForm">
+				<form name="ctFrm" action="confirmation.html" method="post" onsubmit="return validateForm()"><br>
+					<label>Enter your name:  </label><span id="nameerror"></span><br>
+					<input name="name" size="30" /><br><br>
+					<label>Enter your Email Address:  </label><span id="emailerror"></span><br>
+					<input name="email" size="30" /><br><br>
+					<label>Enter your phone number:  </label><span id="phoneerror"></span><br>
+					<input  name="phonenumber" size="30" /><br><br>
+					<label>Enter the number of visitor:  </label><span id="numbererror"></span><br>
+					<input  name="guest" size="30" /><br><br>
+					<label>Select Your Festival:  </label>
+					<select name="subject">
+						<option value="ge">Drama</option>
+						<option value="gpcpbk">Art & Design Festival</option>
+						<option value="sc">Queen Victoria Festival</option>
+						<option value="k">Easter Festival</option>
+						<option value="SP">Crown History</option>
+						<option value="VP">VIP Event</option>
+					</select><br><br>
+					
+					<label>Subject of Your Enquiry:  </label>
+					<select name="subject">
+						<option value="ge">General Enquiry</option>
+						<option value="gpcpbk">Group and Corporate Bookings</option>
+						<option value="sc">Suggestions & Complaints</option>
+					</select><br><br>
+					<div id = "ctEnq">
+						<label>Enter your special enquiry below:</label><br><br>
+						<textarea id="message" rows="8" required></textarea><br><br>
+						<input class="bttnSubmit" type="submit" value="Submit Booking Request" />
+					</div>
+				</form>
+			</div>
+
+			
+			<footer>
+	
+				<div id="footText1">&copy;Canberra Art Biennial Festivals</div>
+			</footer>
+		</body>
+	</html>

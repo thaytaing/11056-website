@@ -1,0 +1,781 @@
+html
+{
+	width: 100%;
+	margin: 0px;
+}
+header
+{
+	background: url(../image/footer_bg.png) repeat;
+	color: gold;
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
+	font-family: "AR BONNIE";
+}
+h1
+{
+	margin: 0px;
+	padding: 20px;
+}
+
+
+.header_logo img
+{
+	float: left;
+	margin-top: 25px;
+}
+.svLogo
+{
+	padding-right: 20px;
+	height: 6%;
+	width: 6%;
+}
+#siteContainer
+{
+	width: 80%;
+	margin: 0px 10%;
+}
+
+
+h2{
+	text-align: center;
+	color: #017572;
+}
+
+body
+{
+    background: url(../image/bg.png) repeat;
+    margin: 0px;
+}
+ul 
+{
+   	margin: 0px 100px;
+   	padding: 20px;
+}
+li 
+{
+    display: inline-block;
+}
+#voucherError
+{
+	color: red;
+	font-style: "Calibri";
+}
+#naviBar 
+{
+	background: url(../image/nav_bg.png) repeat;
+	margin: 0px;
+	font-size: 1.75em;
+	font-family: "Tw Cen MT";
+	text-align: center;
+}
+a.nLk:link , a.nLk:visited 
+{ 	
+	background: url(../image/nav_bg.png) repeat;
+	padding: 20px 30px;
+	color: rgb(170,170,170);
+	text-decoration: none;
+}
+a.nLk:hover, a.nLk:active 
+{
+	background: #ffbc74;
+	padding: 20px 30px;
+	color: black;
+	transition: color .5s ease-out, background .5s ease-in;
+}
+main
+{
+	background-color: rgb(22,22,22);
+	text-align: center;
+	margin: 0px;
+   	padding: 30px 0px;
+}
+#homeTxtTitle
+{
+	padding: 6px;
+	font-family: "Agency FB";
+	font-weight: bold;
+	font-size: 43px;
+	color: #ffbc74;
+	background: url(../image/tab_bg.png) repeat-x;
+}
+#homeText
+{
+	line-height: 20px;
+	font-family: "Calibri";
+	font-size: 1.3em;
+	color: rgb(205,205,205);
+	margin: 0px 90px;
+}
+#ctForm
+{
+	
+	width: 70%;
+	font-size: 20px;
+	font-family: "Calibri";
+	color: #c39f84;
+	padding-top: 70px;
+	padding-bottom: 80px;
+	text-align: center;
+	margin: 0px 15%;
+}
+#ctEnq
+{
+	text-align: center;
+}
+#message
+{
+	width: 70%;
+}
+.bttnSubmit
+{
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	border-style: solid;
+	border-width: 3px;
+	background: -webkit-linear-gradient(rgb(205,154,0),rgb(255, 204, 0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(205,154,0),rgb(255, 204, 0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(205,154,0),rgb(255, 204, 0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(205,154,0),rgb(255, 204, 0));
+	font-family: "Calibri";
+}
+.tableName
+{
+    text-align: center;
+    font-family: "Calibri";
+    font-size: 25px;
+    color: rgb(205,205,205);
+
+}
+.ticketPrice
+{
+    font-family: "Calibri";
+    font-size: 17px;
+    color: rgb(205,205,205);
+    border-style: solid;
+    border-color: rgb(205,205,205);
+    margin: 0px 22.25%;
+    width: 57%;
+    height: 200px;
+}
+.tcktPRow
+{
+	text-align: center;
+    font-family: "Calibri";
+    font-size: 95%;
+    color: rgb(205,205,205);
+}
+.tcktCl
+{
+    text-align: center;
+    font-family: "Calibri";
+    font-size: 17px;
+    color: rgb(205,205,205);
+}
+.weekSchedule
+{
+    font-family: "Calibri";
+    font-size: 17px;
+    color: rgb(205,205,205);
+    border-style: solid;
+    border-color: rgb(205,205,205);
+    margin: 0px 22.25%;
+    width: 57%;
+    height: 150px;
+}
+.wkSRow
+{
+    text-align: center;
+    font-family: "Calibri";
+    font-size: 95%;
+    color: rgb(205,205,205);
+}
+.wkS
+{
+    text-align: center;
+    font-family: "Calibri";
+    font-size: 17px;
+    color: rgb(205,205,205);
+}
+.mvTitle
+{
+	font-family: "Calibri";
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.mvMain
+{
+    padding: 10px;
+    margin: 0px 7%;
+}
+.mvMain2
+{
+    margin: 0px 7%;
+    height: 400px;
+}
+#mv
+{
+	width: 840px;
+	height: 350px;
+	text-align: center;
+	margin: 0px 10px;
+}
+.mvImage
+{
+	padding: 5px;
+}
+.mvImageBorder
+{
+	border-style: inset;
+	border-width: 5px;
+}
+.mvImagePoster
+{
+	float:left;
+	margin: 70px 0px;
+	padding: 10px;
+	height: 320px;
+	width: 210px;
+}
+#mvImageAV
+{
+	height: 360px;
+	float:left;
+	width: 190px;
+	padding: 10px;
+}
+#mvImageAV, #mvImageAV:visited
+{
+	font-family:"Calibri";
+	font-size: 15px;
+	color: rgb(215,215,215);
+	text-decoration: none;
+	cursor: pointer;
+}
+#mvImageAV:hover, #mvImageAV:active
+{
+	font-family:"Calibri";
+	font-size: 15px;
+	color: gold;
+	text-decoration: none;
+	cursor: pointer;
+}
+#mvImageSB, #mvImageSB:visited
+{
+	font-family:"Calibri";
+	font-size: 15px;
+	color: rgb(215,215,215);
+	text-decoration: none;
+	cursor: pointer;
+}
+#mvImageSB:hover, #mvImageSB:active
+{
+	font-family:"Calibri";
+	font-size: 15px;
+	color: gold;
+	text-decoration: none;
+	cursor: pointer;
+}
+#mvImageS, #mvImageS:visited
+{
+	font-family:"Calibri";
+	font-size: 15px;
+	color: rgb(215,215,215);
+	text-decoration: none;
+	cursor: pointer;
+}
+#mvImageS:hover, #mvImageS:active
+{
+	font-family:"Calibri";
+	font-size: 15px;
+	color: gold;
+	text-decoration: none;
+	cursor: pointer;
+}
+#mvImageTW, #mvImageTW:visited
+{
+	font-family:"Calibri";
+	font-size: 15px;
+	color: rgb(215,215,215);
+	text-decoration: none;
+	cursor: pointer;
+}
+#mvImageTW:hover, #mvImageTW:active
+{
+	font-family:"Calibri";
+	font-size: 15px;
+	color: gold;
+	text-decoration: none;
+	cursor: pointer;
+}
+#mvImageSB
+{
+	padding: 10px;
+	height: 360px;
+	float:left;
+	width: 210px;
+}
+#mvImageS
+{
+	padding: 10px;
+	float:left;
+}
+#mvImageTW
+{
+	padding: 10px;
+	float:left;
+}
+.mvBlackFade {
+    display: none;
+    position: fixed;
+	top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .3;
+}
+.mvBlackFade.active
+{
+  	display: block;
+}
+.windowClose
+{ 	
+	width: 50px;
+	height: 30px;
+	font-family: "Calibri";
+	color: rgb(151,151,151);
+	font-size: 80%;
+	border-style: solid;
+	border-width: 2px;
+	border-style: inset;
+	border-color: rgb(151,151,151);
+	background: -webkit-linear-gradient(rgb(0,0,20),rgb(0,0,45)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(0,0,20),rgb(0,0,40)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(0,0,20),rgb(0,0,45)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(0,0,20),rgb(0,0,45));
+	padding: 10px;
+	margin: 10px;
+	font-weight: bold;
+	float: left;
+}
+.mvDescript
+{
+	padding: 10px;
+	margin: 20px 50px;
+	width: 300px;
+	height: 300px;
+	font-family: "Calibri";
+	color: rgb(205,205,205);
+	float: right;
+}
+
+
+.tcktBttn, .link, .delete, .bookAgain
+{
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	border-style: solid;
+	border-width: 3px;
+	background: -webkit-linear-gradient(rgb(205,154,0),rgb(255, 204, 0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(205,154,0),rgb(255, 204, 0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(205,154,0),rgb(255, 204, 0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(205,154,0),rgb(255, 204, 0));
+	font-family: "Calibri";
+}
+#ticketForm
+{
+	background-color: rgb(12,12,12);
+	width: 45%;
+	font-size: 20px;
+	font-family: "Calibri";
+	color: #c39f84;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	margin: 0px 27.5%;
+}
+#sessionSec
+{
+	width: 55%;
+	margin: 0px 25%;
+	text-align: left;
+}
+.sessionSlct
+{
+	width: 75%;
+	float: right;
+}
+#tcktSection
+{
+	width: 75%;
+	margin: 0px 50px;
+	text-align: center;
+}
+#sa1,#sp1,#sc1,#fa1,#fc1,#b1b,#b2b,#b3b
+{
+	width: 40px;
+}
+#totalBttn
+{
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	border-style: solid;
+	border-width: 3px;
+	background: -webkit-linear-gradient(rgb(205,154,0),rgb(255, 204, 0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(205,154,0),rgb(255, 204, 0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(205,154,0),rgb(255, 204, 0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(205,154,0),rgb(255, 204, 0));
+	font-family: "Calibri";
+}
+#footText1
+{
+	margin: 10px;
+	text-align: center;
+}
+.footer_logo img
+{
+	width: 6%;
+	height: 6%;
+	float: left;
+	margin-top: 20px;
+}
+footer 
+{
+	color: rgb(194,194,204);
+	background: url(../image/footer_bg.png) repeat;
+   	padding: 20px;
+	margin: 0px;
+	font-size: 20px;
+	font-family: "Calibri";
+}
+@media only screen and (max-width: 1280px) {
+	header
+	{
+		font-size: 2em;
+	}	
+	ul 
+	{
+	   	margin: 0px 10px;
+	   	padding: 20px;
+	}
+	li
+	{
+		height: 50px;
+	}
+	#naviBar 
+	{
+		margin: 0px;
+		font-size: 17px;
+		height: 60px;
+	}
+	#siteContainer
+	{
+		width: 100%;
+		margin: 0px;
+	}
+	a.nLk:link , a.nLk:visited 
+	{ 	
+		color: rgb(227,227,255);
+		background-color: rgb(59,59,87);
+		text-decoration: none;
+		padding: 0px 20px;
+	}
+	a.nLk:hover, a.nLk:active 
+	{
+		background-color: rgb(39,39,67);
+		padding: 20px;
+		transition: color .5s ease-out, background .5s ease-in;
+	}
+	#homeTxtTitle
+	{
+		font-size: 2.5em;
+	}
+	#homeText
+	{
+		font-size: 0.9em;
+		margin: 0px 20px;
+	}
+	#mvTitle
+	{
+	    font-size: 2.5em;
+	}
+	.mvMain2
+	{
+		height: 700px;
+		padding: 10px;
+    	margin: 0px 25px;
+	}
+	
+	.mvMain
+	{
+	    padding: 0px;
+	    margin: 0px 12%;
+	    height:770px;
+	}
+	#ctTitle
+	{
+		font-size: 30px;
+	}
+	#ctForm
+	{
+		font-size: 15px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.mvDescript
+	{
+		padding: 10px;
+		margin: 20px 50px;
+		width: 300px;
+		height: 300px;
+		float: right;
+	}
+	footer 
+	{
+	   	padding: 5px;
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	header
+	{
+		font-size: 1.5em;
+	    margin: 0px;
+	}	
+	ul 
+	{
+	  	margin: 0px 10px;
+	   	padding: 20px;
+	}
+	li
+	{
+		height: 50px;
+	}
+	.svLogo
+	{
+		padding-right: 5px;
+		height: 19%;
+		width: 19%;
+	}
+	#naviBar 
+	{
+		margin: 0px;
+		font-size: 17px;
+		text-align: left;
+		height: 180px;
+	}
+	a.nLk:link , a.nLk:visited 
+	{ 	
+
+		color: rgb(227,227,255);
+		background-color: rgb(59,59,87);
+		text-decoration: none;
+		padding: 0px 20px;
+	}
+	a.nLk:hover, a.nLk:active 
+	{
+		text-decoration: underline;
+
+	}
+	#siteContainer
+	{
+		width: 100%;
+		margin: 0px;
+	}
+	
+	#homeTxtTitle
+	{
+		font-size: 2.2em;
+	}
+	#homeText
+	{
+		font-size: 0.9em;
+		margin: 0px 20px;
+
+	}
+	#ctTitle
+	{
+		font-size: 30px;
+	}
+	#ctForm
+	{
+		width: 300px;
+		font-size: 15px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		margin: 0px;
+	}
+	.mvMain
+	{
+	    padding: 0px;
+	    margin: 0px 25px;
+	    height: 1580px;
+	}
+	#mvTitle
+	{
+	    font-size: 2.2em;
+	}
+	.mvMain2
+	{
+		height: 1400px;
+		padding: 10px;
+    	margin: 0px 25px;
+	}
+	.ticketPrice
+	{
+	    font-size: 10px;
+	    margin: 0px 10px;
+	    width: 265px;
+	    height: 200px;
+	}
+	.tcktPRow
+	{
+	    font-size: 10px;
+	}
+	.tcktCl
+	{
+	    font-size: 10px;
+	}
+	.weekSchedule
+	{
+	    font-size: 10px;
+	    width: 265px;
+	    margin: 0px 10px;
+	    height: 40%;
+	}
+	.wkSRow
+	{
+	    font-size: 10px;
+	}
+	.wkS
+	{
+	    font-size: 10px;
+	}
+	.mvImage
+	{
+		padding: 10px;
+		float:left;
+	}
+	.mvBlackFade.active
+	{
+	  	display: block;
+	}
+	.mvDescript
+	{
+		padding: 10px;
+		margin: 50px 10px;
+		width: 200px;
+		height: 300px;
+		float: right;
+	}
+	#ticketForm
+	{
+		width: 285px;
+		margin: 0px;
+	}
+	#sessionSec
+	{
+		width: 100px;
+		text-align: left;
+	}
+	.sessionSlct
+	{
+		width: 200px;
+		float: left;
+	}
+	#tcktSection
+	{
+		margin: 0px 40px;
+	}
+}
+
+.login-card {
+	max-width: 350px;
+	padding: 40px 40px;
+	background-color: #F7F7F7;
+	margin: 0 auto 25px;
+	margin-top: 50px;
+	border-radius: 2px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-card .profile-img-card {
+	width: 96px;
+	height: 96px;
+	margin: 0 auto 10px;
+	display: block;
+	border-radius: 50%;
+}
+
+.login-card .profile-name-card {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 0 0;
+	min-height: 1em;
+}
+
+.login-card .reauth-email {
+	display: block;
+	color: #404040;
+	line-height: 2;
+	margin-bottom: 10px;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+
+.login-card .form-signin input[type=email], .login-card .form-signin input[type=password], .login-card .form-signin input[type=text], .login-card .form-signin button {
+	height: 44px;
+	font-size: 16px;
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	z-index: 1;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.login-card label {
+	color: #000000;
+}
+
+.login-card .form-signin .form-control:focus {
+	border-color: rgb(104, 145, 162);
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.login-card .btn.btn-signin {
+	font-weight: 700;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	background: rgb(104, 145, 162);
+	border-radius: 3px;
+	border: none;
+	transition: all 0.218s;
+	padding: 0;
+}
+
+.login-card .btn.btn-signin:hover, .login-card .btn.btn-signin:active, .login-card .btn.btn-signin:focus {
+	background: rgb(12, 97, 33);
+}
+
+.login-card .forgot-password {
+	color: rgb(104, 145, 162);
+}
+
+.login-card .forgot-password:hover, .login-card .forgot-password:active, .login-card .forgot-password:focus {
+	color: rgb(12, 97, 33);
+}
+

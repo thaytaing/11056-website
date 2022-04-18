@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="js/formvalidation.js"></script>
+		<title>Canberra Art Biennial Festivals</title>
+	</head>
+	<body>
+		<header>
+			<h1>
+				<div class="header_logo">
+					<img class ="svLogo" src="assets/image/logo.png" alt="logo"/>
+				</div>
+			</h1>
+		</header>
+		<div id = "naviBar">
+			<ul>
+				<li><a class="nLk" href="index.html">HOME</a></li>
+				<li><a class="nLk" href="contact.html">CONTACT US</a></li>
+				<li><a class="nLk" href="festival.html">FESTIVALS</a></li>
+				<li><a class="nLk" href="booking.html">BOOKING</a></li>
+			</ul>
+		</div>
+		<div id="homeTxtTitle" style="text-align: center;">CONTACT US</div><br>
+		<div id="homeText" style="text-align: center;">
+			If you have any enquiries regarding our services, then fill out the form below.<br>
+			Fill out the form by entering a valid email address and selecting the type of enquiry<br> 
+			you wish to send along with the enquiry itself in the text area at the bottom.<br><br>
+			When you are done, click the submit button to send us your enquiry and<br>
+			we will respond to it as soon as we possibly can.
+		</div><br>
+		<div id="ctForm">
+			<form name="ctFrm" action="welcome.html" method="post" onsubmit="return validateForm()"><br>
+				<label>Enter your Email Address:  </label><span id="emailerror"></span>
+				<input name="email" size="30"/><br><br>
+				<label>Subject of Your Enquiry:  </label><span id="subjecterror"></span>
+				<select name="subject">
+					<option value="ge">General Enquiry</option>
+					<option value="gpcpbk">Group and Corporate Bookings</option>
+					<option value="sc">Suggestions & Complaints</option>
+				</select><br><br>
+				<div id = "ctEnq">
+					<label>Enter your enquiry below:</label><span id="messageerror"></span><br><br>
+					<textarea id="message" name="message" rows="8"></textarea><br><br>
+					<input class="bttnSubmit" type="submit" value="Submit Enquiry" />
+				</div>
+			</form>
+		</div>
+		
+	<footer>
+					
+					<div id="footText1">&copy;Canberra Art Biennial Festivals</div>
+	</footer>
+	</body>
+</html>
