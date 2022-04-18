@@ -29,7 +29,40 @@
 				Please Leave your personal information to confirm the festival booking<br>
 				See you soon<br> 
 			</div><br>
-			
+			<div id="ctForm">
+				<form name="ctFrm" action="confirmation.html" method="post" onsubmit="return validateForm()"><br>
+					<label>Enter your name:  </label><span id="nameerror"></span><br>
+					<input name="name" size="30" /><br><br>
+					<label>Enter your Email Address:  </label><span id="emailerror"></span><br>
+					<input name="email" size="30" /><br><br>
+					<label>Enter your phone number:  </label><span id="phoneerror"></span><br>
+					<input  name="phonenumber" size="30" /><br><br>
+					<label>Enter the number of visitor:  </label><span id="numbererror"></span><br>
+					<input  name="guest" size="30" /><br><br>
+					<label>Select Your Festival:  </label>
+					<select name="subject">
+						<option value="ge">Drama</option>
+						<option value="gpcpbk">Art & Design Festival</option>
+						<option value="sc">Queen Victoria Festival</option>
+						<option value="k">Easter Festival</option>
+						<option value="SP">Crown History</option>
+						<option value="VP">VIP Event</option>
+					</select><br><br>
+					
+					<label>Subject of Your Enquiry:  </label>
+					<select name="subject">
+						<option value="ge">General Enquiry</option>
+						<option value="gpcpbk">Group and Corporate Bookings</option>
+						<option value="sc">Suggestions & Complaints</option>
+					</select><br><br>
+					<div id = "ctEnq">
+						<label>Enter your special enquiry below:</label><br><br>
+						<textarea id="message" rows="8" required></textarea><br><br>
+						<input class="bttnSubmit" type="submit" value="Submit Booking Request" />
+					</div>
+				</form>
+			</div>
+
 			
 		</body>
 	</html>
