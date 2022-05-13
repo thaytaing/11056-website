@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+Author: Srengthay Taing (U3210273)
+Date: 10/05/2022 (Added)
+-->
+	<html>
+
+		<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+			<script src="js/bookingvalidation.js"></script>
+			<title>Canberra Art Biennial Festivals</title>
+		</head>
+
+		<body>
+			<header>
+				<div class="header_logo">
+					<img class="svLogo" src="assets/image/logo.png" alt="logo" />
+				</div>
+			</header>
+
+			<div id = "naviBar">
+				<ul>
+					<li><a class="nLk" href="index.html">HOME</a></li>
+					<li><a class="nLk" href="contact.html">CONTACT US</a></li>
+					<li><a class="nLk" href="festival.html">FESTIVAL</a></li>
+					<li><a class="nLk" href="donation.html">DONATION</a></li>
+				</ul>
+			</div>
+			
+			<div id="homeTxtTitle"><h1>Donation Now</h1></div>
+			<div id="homeText">
+				<h2>Please Leave your personal information to confirm the festival Donation</h2> 
+			</div>
+			<div id="ctForm">
+				<form name="ctFrm" action="confirmation.html" method="post" onsubmit="return validateForm()">
+					<label>Enter your name:  </label><span id="nameerror"></span>
+					<p><input name="name" size="30" required /></p>
+					<label>Enter your Email Address:  </label><span id="emailerror"></span>
+					<p><input name="email" size="30" required/></p>
+					<label>Enter your phone number:  </label><span id="phoneerror"></span>
+					<p><input  name="phonenumber" size="30" required/></p>
+					<label>Enter Your Address:  </label><span id="numbererror"></span>
+					<p><input  name="guest" size="30" required/></p>
+					<label>Select Your Donation Value:  </label>
+					<p><select name="subject">
+						<option value="ge">$50</option>
+						<option value="gpcpbk">$100</option>
+						<option value="sc">$150</option>
+						<option value="k">$200</option>
+						<option value="SP">$250</option>
+						<option value="VP">$300</option>
+					</select></p>
+					<input class="bttnSubmit" type="submit" value="Submit Enquiry" />
+					
+				</form>
+			</div>
+
+			
+			<footer>
+	
+				<div id="footText1">&copy;Canberra Art Biennial Festivals</div>
+			</footer>
+		</body>
+	</html>
